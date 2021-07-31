@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "22750542e70cb707cefa4523ca874b54",
+    "content-hash": "77260b45a737f8c8601c4028a83ab6a1",
     "packages": [
         {
             "name": "composer/installers",
@@ -1321,6 +1321,42 @@
                 "source": "https://github.com/wp-cli/wp-cli"
             },
             "time": "2021-05-14T13:44:51+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/woocommerce",
+            "version": "5.5.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/woocommerce/",
+                "reference": "tags/5.5.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/woocommerce.5.5.2.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/woocommerce/"
+        },
+        {
+            "name": "wpackagist-theme/wpcstore",
+            "version": "1.1.1",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/wpcstore/",
+                "reference": "1.1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/wpcstore.1.1.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/wpcstore/"
         }
     ],
     "packages-dev": [
