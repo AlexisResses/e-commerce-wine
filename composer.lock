@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "77260b45a737f8c8601c4028a83ab6a1",
+    "content-hash": "50a64f2cde003614e47b132cbb66de0e",
     "packages": [
         {
             "name": "composer/installers",
@@ -1323,6 +1323,24 @@
             "time": "2021-05-14T13:44:51+00:00"
         },
         {
+            "name": "wpackagist-plugin/stripe",
+            "version": "2.6.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/stripe/",
+                "reference": "tags/2.6.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/stripe.2.6.3.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/stripe/"
+        },
+        {
             "name": "wpackagist-plugin/woocommerce",
             "version": "5.5.2",
             "source": {
@@ -1339,6 +1357,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/woocommerce/"
+        },
+        {
+            "name": "wpackagist-plugin/woocommerce-gateway-stripe",
+            "version": "5.3.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/woocommerce-gateway-stripe/",
+                "reference": "tags/5.3.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/woocommerce-gateway-stripe.5.3.0.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/woocommerce-gateway-stripe/"
         },
         {
             "name": "wpackagist-theme/wpcstore",
