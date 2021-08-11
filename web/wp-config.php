@@ -9,15 +9,15 @@ require_once dirname(__DIR__) . '/config/application.php';
 require_once ABSPATH . 'wp-settings.php';
 
 /** The name of the database for WordPress */
-define('DB_NAME', 'wine2');
+define('DB_NAME', 'heroku_dfe0977515bac00');
 
 /** MySQL database username */
-define('DB_USER', 'alex');
+define('DB_USER', 'b24a3a4bae493e');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'alex');
+define('DB_PASSWORD', '716d0794');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'eu-cdbr-west-01.cleardb.com');
 
 define('WP_ALLOW_REPAIR', true);
