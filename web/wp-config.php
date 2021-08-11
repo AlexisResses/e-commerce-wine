@@ -7,3 +7,15 @@
 require_once dirname(__DIR__) . '/vendor/autoload.php';
 require_once dirname(__DIR__) . '/config/application.php';
 require_once ABSPATH . 'wp-settings.php';
+
+/** The name of the database for WordPress */
+define('DB_NAME', 'wine2');
+
+/** MySQL database username */
+define('DB_USER', 'alex');
+
+/** MySQL database password */
+define('DB_PASSWORD', 'alex');
+
+/** MySQL hostname */
+define('DB_HOST', 'localhost');
