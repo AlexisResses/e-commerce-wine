@@ -19,3 +19,5 @@ define('DB_PASSWORD', 'alex');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
+
+define('WP_ALLOW_REPAIR', true);
